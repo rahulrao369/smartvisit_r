@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/flaticon.css">
+<!-- CSS only -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <header class="header">
+        <div class="container-fluid">
+    
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#">
+                    <img src="images/blacklogo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a href="" class="nav-link">
+                            <img src="images/icons/call.png" alt=""> +0123456789
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="" class="nav-link">
+                            <img src="images/icons/bell.png" alt="">
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="" class="nav-link">
+                            <img src="images/icons/logout.png" alt="">
+                        </a>
+                    </li>
+                  </ul>
+                  
+                </div>
+              </nav>
+        </div>
+    </header>
+
+
+<section class="content-wrapper"> 
+            <div class="sidemenu">
+                <div class="sidenav">
+
+                    <a href="dashboard.html">
+                        <div class="profilesidebar">
+                             <div class="profile-icon">
+                                 <img src="images/profile.jpg" alt="">
+                                 <div class="seticon">
+                                     <img src="images/icons/setting.png" alt="">
+                                 </div>
+                             </div>
+                             <div class="settingicon">
+                                 <div>
+                                     <p>Dr zohra salehi</p>
+                                 <h6>Dermatologist</h6>
+                                 </div>
+                             </div>
+                         </div>
+                        </a>
+
+                        <ul>
+                            <li>
+                                <a href="overview.html"> <i class="flaticon-home"></i> Overview</a>
+                            </li>
+                            <li>
+                                <a href="consult_patient.html"> <i class="flaticon-phone-with-message"></i> Consult</a>
+                            </li>
+                            <li>
+                                <a href="patients.html"> <i class="flaticon-user"></i> Patients</a>
+                            </li>
+                            <li>
+                                <a href="clinical_update.html"> <i class="flaticon-document"></i> Clinical Updates +2</a>
+                            </li>
+                            <li>
+                                <a href="availability.html"> <i class="flaticon-select"></i> My availability</a>
+                            </li>
+                            <li class="sidebar_active">
+                                <a href="payments.html"> <i class="flaticon-credit-card"></i> Payments</a>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+
+            <div class="side-wrapper">
+               <div class="card wrapper-card">
+                   <div class="card-body form-body">
+                       <div class="row">
+                           <div class="col-md-12">
+                            <div class="paymentslist">
+                                <ul class="paymentul">
+                                    <li>
+                                        <div class="card paymentcard">
+                                          <div class="icon" style="color: purple; background-color: #f5b6f566;">
+                                              <i class="fa fa-credit-card" aria-hidden="true"></i>
+                                          </div>
+                                          <div class="content">
+                                              <h5>$15,000</h5>
+                                              <p>Paid</p>
+                                          </div>
+                                        </div>
+                                      </li>
+                                    <li>
+                                      <div class="card paymentcard">
+                                        <div class="icon" style="color: rgb(0, 0, 0); background-color: #c0c0c0;">
+                                          <i class="fa fa-database" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h5>$2,320</h5>
+                                            <p>Outstanding</p>
+                                        </div>
+                                      </div>
+                                  </li>
+                                  <li>
+                                      <div class="card paymentcard">
+                                        <div class="icon" style="color: rgb(228, 186, 0); background-color: #fcfbcb;">
+                                          <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h5>$1,200</h5>
+                                            <p>DUE MM/DAY</p>
+                                        </div>
+                                      </div>
+                                  </li>
+                              </ul>
+                            </div>
+                           </div>
+
+                           <div class="col-md-8 offset-md-2">
+                            <div class="paymenttabarea">
+                                <div class="paymenttabbtn prescribetabmenu">
+                                    <ul>
+                                        <li>
+                                            <button type="button" class="prescribebtn" id="payment">
+                                                Payments
+                                            </button>
+                                        </li>
+                                        <li class="prescribeactive">
+                                            <button type="button" class="prescribebtn" id="deposit">
+                                                Setup direct deposit
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="paymenttabcontent">
+                                    <!-- <div class="tabcontentone">
+
+                                    </div> -->
+                                    <div class="tabcontentwo">
+                                       
+                                        <div class="paymentviewflex">
+                                            <h5>Your Deposit Account</h5>
+                                            <div class="paymentbtnview">
+                                                <button type="button" class="paymentbtn removebtn" data-toggle="modal" data-target="#exampleModal">
+                                                    <i class="fa fa-trash" aria-hidden="true"></i> Remove Bank</button>
+                                            </div>
+                                        </div>
+                                       
+                                        <div class="paymentviewitem">
+                                            <div class="form-group">
+                                                <label>Bank Name</label>
+                                                <p>Wells Fargo</p>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label>Routing</label>
+                                                <p>* * * * * 4 5 6 7</p>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label>Account</label>
+                                                <p>* * * * * * * * * * 3 3 4 5</p>
+                                            </div>
+                                        </div>
+                                       
+                                    </div>
+                                </div>
+
+                            </div>
+                           </div>
+
+                       </div>
+                   </div>
+               </div>
+
+               
+            </div>
+
+           
+</section>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+
+         <h5>Do you want to delete this bank account ?</h5>
+
+         <ul>
+            <li>
+                <button type="button" class="paymentbtn removebtn modalbtn" >Yes, Delete</button>
+            </li>
+            <li>
+                <button type="button" class="paymentbtn removebtn modalbtn" data-dismiss="modal">Cancel</button>
+            </li>
+         </ul>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

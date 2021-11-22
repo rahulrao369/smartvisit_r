@@ -1,0 +1,15 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 18" width="22" height="18">
+	<title>Group_3909</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: none;stroke: #2f4858;stroke-linecap:round;stroke-linejoin:round;stroke-width: 2 } 
+		.shp1 { fill: none } 
+	</style>
+	<g id="Group_3909">
+		<g id="Group_3903">
+			<path id="Path_5467" class="shp0" d="M3 1L19 1C19.26 1 19.52 1.05 19.76 1.15C20.01 1.25 20.23 1.4 20.41 1.59C20.6 1.77 20.75 1.99 20.85 2.24C20.95 2.48 21 2.74 21 3L21 15C21 15.26 20.95 15.52 20.85 15.76C20.75 16.01 20.6 16.23 20.41 16.41C20.23 16.6 20.01 16.75 19.76 16.85C19.52 16.95 19.26 17 19 17L3 17C2.74 17 2.48 16.95 2.24 16.85C1.99 16.75 1.77 16.6 1.59 16.41C1.4 16.23 1.25 16.01 1.15 15.76C1.05 15.52 1 15.26 1 15L1 3C1 2.74 1.05 2.48 1.15 2.24C1.25 1.99 1.4 1.77 1.59 1.59C1.77 1.4 1.99 1.25 2.24 1.15C2.48 1.05 2.74 1 3 1L3 1Z" />
+			<path id="Path_5468" class="shp0" d="M21 3L11 10L1 3" />
+		</g>
+		<path id="Rectangle_1588" class="shp1" d="M-5 -7L27 -7L27 25L-5 25L-5 -7Z" />
+	</g>
+</svg>

@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/flaticon.css">
+<!-- CSS only -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+<header class="header">
+    <div class="container-fluid">
+
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#">
+                <img src="images/blacklogo.png" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a href="" class="nav-link">
+                        <img src="images/icons/call.png" alt=""> +0123456789
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a href="" class="nav-link">
+                        <img src="images/icons/bell.png" alt="">
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a href="" class="nav-link">
+                        <img src="images/icons/logout.png" alt="">
+                    </a>
+                </li>
+              </ul>
+              
+            </div>
+          </nav>
+    </div>
+</header>
+
+
+<section class="content-wrapper"> 
+            <div class="sidemenu">
+                <div class="sidenav">
+
+                    <a href="dashboard.html">
+                    <div class="profilesidebar">
+                         <div class="profile-icon">
+                             <img src="images/profile.jpg" alt="">
+                             <div class="seticon">
+                                 <img src="images/icons/setting.png" alt="">
+                             </div>
+                         </div>
+                         <div class="settingicon">
+                             <div>
+                                 <p>Dr zohra salehi</p>
+                             <h6>Dermatologist</h6>
+                             </div>
+                         </div>
+                     </div>
+                    </a>
+
+                   <ul>
+                        <li class="sidebar_active">
+                            <a href="overview.html"> <i class="flaticon-home"></i> Overview</a>
+                        </li>
+                        <li>
+                            <a href="consult_patient.html"> <i class="flaticon-phone-with-message"></i> Consult</a>
+                        </li>
+                        <li>
+                            <a href="patients.html"> <i class="flaticon-user"></i> Patients</a>
+                        </li>
+                        <li>
+                            <a href="clinical_update.html"> <i class="flaticon-document"></i> Clinical Updates +2</a>
+                        </li>
+                        <li>
+                            <a href="availability.html"> <i class="flaticon-select"></i> My availability</a>
+                        </li>
+                        <li>
+                            <a href="payments.html"> <i class="flaticon-credit-card"></i> Payments</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="side-wrapper">
+              <div class="overviewCard">
+                  <ul>
+                      <li>
+                        <div class="card dashboardcard">
+                            <div class="icon" style="background: #f8fced; color: #bfe34e;">
+                                <i class="fa fa-user" aria-hidden="true"></i>
+                            </div>
+                            <h6>28</h6>
+                            <p>Patients</p>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="card dashboardcard">
+                            <div class="icon" style="background: #fff8e5;">
+                                <img src="images/icons/check-1.png" alt="">
+                            </div>
+                            <h6>30 h/w</h6>
+                            <p>Availability</p>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="card dashboardcard">
+                            <div class="icon" style="background:  #eaf8f9;">
+                                <img src="images/icons/dr-tools.png" alt="">
+                            </div>
+                            <h6>GP</h6>
+                            <p>Specialization</p>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="card dashboardcard">
+                            <div class="icon" style="background:  #fef5ee;">
+                                <img src="images/icons/pin.png" alt="">
+                            </div>
+                            <h6>Boston, Ma</h6>
+                            <p>Location</p>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="card dashboardcard">
+                            <div class="icon" style="background:  #f7e6f9;">
+                                <img src="images/icons/card-1.png" alt="">
+                            </div>
+                            <h6>$ 15,000</h6>
+                            <p>Paid</p>
+                        </div>
+                      </li>
+
+                      <li>
+                        <div class="card dashboardcard">
+                            <div class="icon" style="background:  #f0f2f3;">
+                                <img src="images/icons/coin.png" alt="">
+                            </div>
+                            <h6>$ 2,320</h6>
+                            <p>Outstanding</p>
+                        </div>
+                      </li>
+                  </ul>
+
+                <!-- ///// overview first column area ///// -->
+
+                <div class="overviewColumnarea">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="overview_consult_head">
+                                <h5>Today Consult</h5>
+                                <span>See All</span>
+                            </div>
+
+                            <div class="card">
+
+                                <div class="overflex">
+                                    <div class="icon">
+                                        <img src="images/overview/profileone.jpeg" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <h5>Beth Mccoy <i class="flaticon-video-camera"></i></h5>
+                                        <span>Medical Check Up</span>
+                                    </div>
+                                    <div class="sidecontent">
+                                        <h6>at 2:00 pm</h6>
+                                        <h6>at 2:30 pm</h6>
+                                    </div>
+                                </div>
+
+                                <div class="overflex">
+                                    <div class="icon">
+                                        <img src="images/overview/profiletwo.jpg" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <h5>Besis Alexander<i class="flaticon-phone"></i></h5>
+                                        <span>Medical Check Up</span>
+                                    </div>
+                                    <div class="sidecontent">
+                                        <h6>at 2:00 pm</h6>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="overflex">
+                                    <div class="icon">
+                                        <img src="images/overview/profilefive.jpg" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <h5>Devight Murphy <i class="flaticon-video-camera"></i></h5>
+                                        <span>Medical Check Up</span>
+                                    </div>
+                                    <div class="sidecontent">
+                                        <h6>at 2:30 pm</h6>
+                                    </div>
+                                </div>
+
+
+                                <div class="overflex">
+                                    <div class="icon">
+                                        <img src="images/overview/profilefour.jpg" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <h5>Evan Hanry <i class="flaticon-phone"></i></h5>
+                                        <span>Medical Check Up</span>
+                                    </div>
+                                    <div class="sidecontent">
+                                        <h6>at 2:30 pm</h6>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="col-md-6">
+                            <div class="overview_consult_head">
+                                <h5>Today Available Urgent Consults</h5>
+                                <span>See All</span>
+                            </div>
+
+                            <div class="card">
+
+                                <div class="overflex">
+                                    <div class="icon">
+                                        <img src="images/overview/profileone.jpeg" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <h5>Beth Mccoy <i class="flaticon-video-camera"></i></h5>
+                                        <span>Medical Check Up</span>
+                                    </div>
+                                    <div class="sidecontent">
+                                        <h6 style="font-weight: 600;">at 2:30 pm</h6>
+                                    </div>
+                                </div>
+
+                                <div class="overflex">
+                                    <div class="icon">
+                                        <img src="images/overview/profiletwo.jpg" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <h5>Besis Alexander<i class="flaticon-phone"></i></h5>
+                                        <span>Medical Check Up</span>
+                                    </div>
+                                    <div class="sidecontent">
+                                        <h6 style="font-weight: 600;">at 2:00 pm</h6>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- end -->
+
+
+                <!-- 2nd column area -->
+
+                <div class="overviewColumnarea">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="overview_consult_head">
+                                <h5>Consult Requests</h5>
+                                <span>See All</span>
+                            </div>
+
+                            <div class="card requestscroll">
+
+                                <div class="overflex">
+                                    <div class="icon requesticon">
+                                        <img src="images/overview/profileone.jpeg" alt="">
+                                    </div>
+                                    <div class="content Requestscontent">
+                                        <h5>Ricardo Russels <i class="flaticon-video-camera"></i></h5>
+                                        <h6>Scaling</h6>
+                                        <span>Today, 10:00 Am</span>
+                                    </div>
+                                    <div class="sidecontent iconflex">
+                                        <span style="background: #f2f9dc; color: #bfe34e;"><i class="flaticon-check"></i></span>
+                                        <span style="background: #f7ced1; color: #d8081a;"><i class="flaticon-close"></i></span>
+                                    </div>
+                                </div>
+
+                                <div class="overflex">
+                                    <div class="icon requesticon">
+                                        <img src="images/overview/profilefour.jpg" alt="">
+                                    </div>
+                                    <div class="content Requestscontent">
+                                        <h5>Devon Cooper <i class="flaticon-video-camera"></i> <span>(Emergency)</span> </h5>
+                                        <h6>Medical Check Up</h6>
+                                        <span>Today, 12:00 Am</span>
+                                    </div>
+                                    <div class="sidecontent iconflex">
+                                        <h6 style="background: #f2f9dc; color: #bfe34e;">Accepted</h6>
+                                    </div>
+                                </div>
+
+
+                                <div class="overflex">
+                                    <div class="icon requesticon">
+                                        <img src="images/overview/profiletwo.jpg" alt="">
+                                    </div>
+                                    <div class="content Requestscontent">
+                                        <h5>Ana Lopez<i class="flaticon-video-camera"></i><span>(Emergency)</span></h5>
+                                        <h6>Medical Check Up</h6>
+                                        <span>Today, 14:00 Pm</span>
+                                    </div>
+                                    <div class="sidecontent iconflex">
+                                        <h6 style="background: #f2f9dc; color: #bfe34e;">Accepted</h6>
+                                    </div>
+                                </div>
+
+
+                                <div class="overflex">
+                                    <div class="icon requesticon">
+                                        <img src="images/overview/profilefive.jpg" alt="">
+                                    </div>
+                                    <div class="content Requestscontent">
+                                        <h5>Edden Azzard<i class="flaticon-video-camera"></i></h5>
+                                        <h6>Scaling</h6>
+                                        <span>25 May, 16:00 Pm</span>
+                                    </div>
+                                    <div class="sidecontent iconflex">
+                                        <span style="background: #f2f9dc; color: #bfe34e;"><i class="flaticon-check"></i></span>
+                                        <span style="background: #f7ced1; color: #d8081a;"><i class="flaticon-close"></i></span>
+                                    </div>
+                                </div>
+
+
+                                <div class="overflex">
+                                    <div class="icon requesticon">
+                                        <img src="images/overview/profilethree.jpg" alt="">
+                                    </div>
+                                    <div class="content Requestscontent">
+                                        <h5>Ricardo Russels <i class="flaticon-video-camera"></i></h5>
+                                        <h6>Scaling</h6>
+                                        <span>Today, 10:00 Am</span>
+                                    </div>
+                                    <div class="sidecontent iconflex">
+                                        <span style="background: #f2f9dc; color: #bfe34e;"><i class="flaticon-check"></i></span>
+                                        <span style="background: #f7ced1; color: #d8081a;"><i class="flaticon-close"></i></span>
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="col-md-6">
+                            <div class="overview_consult_head">
+                                <h5>Recent Consults</h5>
+                                <span>See All</span>
+                            </div>
+
+                            <div class="card">
+
+                                <div class="overflex">
+                                    <div class="icon">
+                                        <img src="images/overview/profileone.jpeg" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <h5>Olive Mark</h5>
+                                        <span>Medical Check Up</span>
+                                    </div>
+                                </div>
+
+                                <div class="overflex">
+                                    <div class="icon">
+                                        <img src="images/overview/profiletwo.jpg" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <h5>Rochel Reigns</h5>
+                                        <span>Medical Check Up</span>
+                                    </div>
+                                </div>
+
+                                <div class="overflex">
+                                    <div class="icon">
+                                        <img src="images/overview/profilethree.jpg" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <h5>Angelina Watson</h5>
+                                        <span>Medical Check Up</span>
+                                    </div>
+                                </div>
+
+                                <div class="overflex">
+                                    <div class="icon">
+                                        <img src="images/overview/profilefour.jpg" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <h5>Besis Alexander</h5>
+                                        <span>Medical Check Up</span>
+                                    </div>
+                                </div>
+
+                                <div class="overflex">
+                                    <div class="icon">
+                                        <img src="images/overview/profilefive.jpg" alt="">
+                                    </div>
+                                    <div class="content">
+                                        <h5>Beth Mccoy</h5>
+                                        <span>Medical Check Up</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- end -->
+
+
+                <!-- 3rd column area -->
+
+                <div class="overviewColumnarea">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="overview_consult_head fullcolumhead">
+                                <h5>Clinical Updates</h5>
+                                <span>See All</span>
+                            </div>
+
+                            <div class="card">
+
+                                <div class="overflex" style="align-items: unset;">
+                                    <div class="updatepic">
+                                        <img src="images/overview/doctorone.jpg" alt="">
+                                    </div>
+                                    <div class="updatecontent">
+                                        <h5>LDL cholestrol: How low can you (safely) go?.</h5>
+                                        <h6>Lorem, ipsum dolor sit amet consectetur adipisicing eli. Quam odio odit labore recusandae, provident voluptatum tenetur facilis consectetur temporibus veniam ipsum laudantium ut alias sapiente esse a sit nostrum suscipit. <span>Read More</span></h6> 
+                                        <div class="bottomcontent">
+                                            <span>
+                                                <img src="images/icons/date.png" alt="">  20/03/23
+                                            </span>
+                                            <span>
+                                                <img src="images/icons/edit.png" alt=""> Lauren Spencer
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="overflex" style="align-items: unset;">
+                                    <div class="updatepic">
+                                        <img src="images/overview/doctortwo.jpg" alt="">
+                                    </div>
+                                    <div class="updatecontent">
+                                        <h5>LDL cholestrol: How low can you (safely) go?.</h5>
+                                        <h6>Lorem, ipsum dolor sit amet consectetur adipisicing eli. Quam odio odit labore recusandae, provident voluptatum tenetur facilis consectetur temporibus veniam ipsum laudantium ut alias sapiente esse a sit nostrum suscipit. <span>Read More</span></h6> 
+                                        <div class="bottomcontent">
+                                            <span>
+                                                <img src="images/icons/date.png" alt="">  20/03/23
+                                            </span>
+                                            <span>
+                                                <img src="images/icons/edit.png" alt=""> Lauren Spencer
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="overflex" style="align-items: unset;">
+                                    <div class="updatepic">
+                                        <img src="images/overview/doctorthree.jpg" alt="">
+                                    </div>
+                                    <div class="updatecontent">
+                                        <h5>LDL cholestrol: How low can you (safely) go?.</h5>
+                                        <h6>Lorem, ipsum dolor sit amet consectetur adipisicing eli. Quam odio odit labore recusandae, provident voluptatum tenetur facilis consectetur temporibus veniam ipsum laudantium ut alias sapiente esse a sit nostrum suscipit. <span>Read More</span></h6> 
+                                        <div class="bottomcontent">
+                                            <span>
+                                                <img src="images/icons/date.png" alt="">  20/03/23
+                                            </span>
+                                            <span>
+                                                <img src="images/icons/edit.png" alt=""> Lauren Spencer
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="overflex" style="align-items: unset;">
+                                    <div class="updatepic">
+                                        <img src="images/overview/doctorone.jpg" alt="">
+                                    </div>
+                                    <div class="updatecontent">
+                                        <h5>LDL cholestrol: How low can you (safely) go?.</h5>
+                                        <h6>Lorem, ipsum dolor sit amet consectetur adipisicing eli. Quam odio odit labore recusandae, provident voluptatum tenetur facilis consectetur temporibus veniam ipsum laudantium ut alias sapiente esse a sit nostrum suscipit. <span>Read More</span></h6> 
+                                        <div class="bottomcontent">
+                                            <span>
+                                                <img src="images/icons/date.png" alt="">  20/03/23
+                                            </span>
+                                            <span>
+                                                <img src="images/icons/edit.png" alt=""> Lauren Spencer
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                               
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- end -->
+
+
+
+              </div>
+
+               
+            </div>
+
+           
+</section>
+
+
+
+
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+
+
+</body>
+</html>

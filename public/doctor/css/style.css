@@ -1,0 +1,1895 @@
+.sidemenu {
+  padding-left: 0px;
+  transition: all .4s ease 0s;
+}
+
+.sidenav {
+  right: 70px;
+}
+
+.sidemenu.active {
+  padding-left: 70px;
+}
+
+.sidemenu.active .sidenav {
+  left: -70px;
+  width: 150px;
+  transition: all .4s ease 0s;
+  position: relative;
+}
+
+#main_icon{float: right; cursor:pointer;}
+
+
+/* ////////////// tabs par gradient border ki css /////////////// */
+header{border-image: linear-gradient(to right, rgb(43 208 28), rgb(178 230 67));
+    border-image-slice: 1;}
+
+/* ////////////////////////////////////  admin panel ////////////////////////////////// */
+@font-face{
+    src: url('../fonts/Poppins-Regular.ttf');
+    font-family: "poppins";
+}
+
+h3{
+    color: #000;
+}
+
+p{
+    color: #000;
+    font-weight: 600;
+    font-family: poppins !important;
+}
+label{
+    font-weight: 600;
+    font-family: poppins !important;
+}
+
+::placeholder{
+    font-family: poppins;
+}
+body{
+    font-family: poppins;
+    background: #f8f9fa;
+}
+
+a{
+    font-weight: 600;
+    font-family: poppins;
+}
+
+.header{
+    background: #fff;
+    padding: 0;
+    width: 100%;
+    box-shadow: #33333321 0px 0px 4px 0px;
+    position: fixed;
+    z-index: 1;
+}
+
+.badge{  
+    position: absolute;
+    margin-left: -15px;
+    margin-top: -2px;
+    background: #f1f1f1;
+    border-radius: 50%;
+}
+
+.navbar-brand{
+    color: #000;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* .navbar-brand{
+    color: #000;
+    font-weight: 600;
+} */
+.navbar-brand img {
+    max-width: 75px;
+}
+
+.mynav{
+    width: 100%;
+    float: right;
+}
+
+.mynav ul{
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item{
+    padding: 5px 8px;
+    color: #000;
+    
+}
+.navbar-expand-lg .navbar-nav .nav-item:first-child a{
+    color: #2f4858;
+    font-weight: 500;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link i {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.navbar-expand-lg .navbar-nav  .hoverlink:hover .notification_Card{
+    display: block;
+}
+
+.notification_Card {
+    display: none;
+    padding: 15px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 0px 6px 1px #f1f1f1;
+    position: absolute;
+    width: 25%;
+    right: 0;
+    margin-top: 5px;
+    border: 1px solid #dddddd85;
+    transition: 0.2s all ease-in-out 0s;
+}
+.notification_Card ul{list-style-type: none; padding: 0; margin: 0;}
+.notification_Card ul li {padding: 10px;}
+.notification_Card ul li i {float: left; font-size: 12px; color: #fa8748;}
+.notification_Card ul li p {
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0;
+    margin-left: 25px;
+    color: #2f4858;
+    border-bottom: 1px solid #d5dbdf;
+    padding-bottom: 5px;
+}
+.notification_Card ul li span{
+    font-size: 12px;
+    color: #919191;
+    display: block;
+
+}
+
+.sidebar_active {
+    background: #bfe34e;
+    border-radius: 25px;
+    transform: scale(1);
+    transition: 0.9s ease-out;
+}
+.sidebar_active a {color: #fff !important;}
+.sidebar_active a i {color: #fff !important;}
+.sidemenu{
+    display: block;
+    width: 23%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    height: 100%;
+    margin-top: 75px;
+    box-shadow: #33333321 0px 0px 4px 0px;
+}
+
+.sidenav {
+    background: #2f4858;
+    color: #fff;
+    height: 100%;
+    padding: 30px;
+    max-height: calc(100vh - 75px);
+    overflow: auto;
+}
+.sidenav a:hover{
+    text-decoration: none;
+}
+
+.sidenav ul{
+    list-style-type: none;
+    margin: 35px 0 0;
+    padding: 0;
+}
+.sidenav ul li{
+    padding: 10px 20px;
+    color: #000;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.sidenav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+.sidenav ul li i {
+    font-size: 18px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* //////// sidebar profile css //////// */
+
+.profilesidebar{
+    border-radius: 15px;
+    padding: 10px 15px;
+    text-align: center;
+    display: flex;
+    background: #f1f1f1;
+}
+.activethis{
+    background: #a2f147;
+}
+.settingicon {
+    min-width: 60%;
+    display: flex;
+    align-items: center;
+}
+.settingicon p{
+    margin: 0;
+    color: #2f4858;
+    text-align: left;
+    font-weight: 500;
+}
+.settingicon h6{
+    margin: 0;
+    color: #2f4858;
+    text-align: left;
+    font-size: 13px;
+    font-weight: 500;
+}
+.settingicon .seticon {
+    background-color: #fff;
+    color: #000;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: block;
+    padding: 2px 0;
+    font-size: 20px;
+}
+.profile-icon {width: 50%;}
+.profile-icon img {
+    width: 70px;
+    border-radius: 50%;
+    height: 70px;
+    border: 2px solid #cfd8dc;
+    object-fit: cover;
+}
+.profile-icon p {
+    color: #4d4d4d;
+    font-size: 16px;
+    margin: 10px 0 0;
+}
+.seticon{
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: #fff;
+    color: #f59b5c;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: -20px;
+    z-index: 1;
+    position: relative;
+}
+.seticon img {
+    width: 35px;
+    height: 35px;
+}
+
+/* /////////// side wrapper css ////////// */
+
+.side-wrapper{
+    margin: 0;
+    margin-left: 320px;
+    padding-top: 75px;
+}
+
+.wrapper-card {
+    margin: 25px;
+    border: none;
+    border-radius: 0;
+}
+
+.profilecard {
+    padding: 30px 30px 0;
+    text-align: center;
+    background: #fff7f2;
+    border: 1px solid #fbd2b6;
+    border-radius: 10px;
+}
+
+.consultcard{
+    background: #fafdf1;
+    border: none;
+    border: 1px solid #eef8d0;
+    border-radius: 20px;
+}
+
+.profilecardcontent .form-group {
+    margin-bottom: 0;
+}
+
+.profileset .custom-file-upload {
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    padding: 7px;
+    cursor: pointer;
+    background: #fcdbc5;
+    margin-bottom: 25px;
+}
+
+.profileset .img-wrap {
+    position: relative;
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: auto;
+    border: 2px solid #f59b5c;
+}
+
+.profileset .img-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    min-height: 150px;
+    max-width: 150px;
+}
+
+.p-image {
+    position: absolute;
+    right: 0;
+    color: #fff;
+    transition: all .3s cubic-bezier(.175,.885,.32,1.275);
+    background: #f59b5c;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    padding: 5px;
+    left: 120px;
+    margin: auto;
+    bottom: 40px;
+}
+.p-image i {
+    font-size: 20px;
+}
+.profileset input[type=file] {
+    display: block;
+    opacity: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.tabitem {margin: 60px 0 0;}
+.tabitem ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tabitem ul li {
+    display: inline-block;
+    cursor: pointer;
+    padding: 0px 0 8px;
+    margin: 0 40px;
+    color: #2f4858;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.tabactive {
+    border-bottom: 2px solid #bfe34e;
+    color: #bfe34e !important;
+}
+
+.wrapper-card .form-body {
+    margin-top: 35px;
+}
+
+.wrapper-card .form-body .form-control {
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 1px solid #ddd;
+}
+.wrapper-card .form-body .form-control:focus, .wrapper-card .form-body .form-control:active{
+    box-shadow: none;
+    border: 1px solid #bfe34e;
+}
+
+.wrapper-card .form-body label{
+    color: #848484;
+    font-size: 14px;
+}
+
+.form-title {
+    margin: 25px 0 20px;
+    font-weight: 600;
+}
+.form_p {
+    margin: 10px 0;
+    font-weight: 500;
+}
+.bottmMRG {
+    margin-bottom: 35px;
+}
+
+.btnedit {
+    text-align: right;
+}
+.editbtn {
+    background: #bfe34e;
+    color: #fff;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    padding: 10px 22px;
+    font-weight: 500;
+    font-size: 14px;
+    transition: 0.2s all ease-in-out;
+    position: relative;
+}
+.editbtn:hover,.orangebtn:hover{
+    background: #2f4858;
+    color: #fff;
+    box-shadow: rgba(0,0,0,0.5) 0 5px 10px 0;
+    transition: all .5s;
+}
+
+.orangebtn{
+    background: #fa8748;
+    color: #fff;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: 0.2s all ease-in-out;
+}
+
+.editbtn:focus{
+    box-shadow: 0px 0px 3px 2px #afaeae;
+}
+/* .editbtn:hover, .orangebtn:hover{
+    color: #fff;
+} */
+.orangebtn:focus{
+    box-shadow: 0px 0px 3px 2px #afaeae;
+}
+
+.editbtn img {
+    max-width: 18px;
+}
+
+/* ////////// payment page css /////// */
+.paymentslist{
+    background: #f8f9fa;
+    border-radius: 25px;
+    padding: 30px 0;
+}
+.paymentul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.paymentul li{
+    display: inline-block;
+    width: 18%;
+    margin-right: 30px;
+}
+.paymentul li:last-child{
+    margin-right: 0;
+}
+.paymentcard{
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+}
+.paymentcard .icon {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: auto;
+    padding: 10px 0;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 20px;
+}
+.paymentcard .content {
+    padding: 15px 0;
+}
+.paymentcard .content h5 {
+    font-size: 15px;
+    font-weight: 400;
+}
+.paymentcard .content p {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+.paymenttabarea {
+    margin: 30px 0 0;
+}
+
+.paymenttabbtn ul{list-style-type: none; padding: 0; margin: 0; text-align: center;}
+.paymenttabbtn ul li {display: inline-block; margin-right: 15px;}
+.paymenttabbtn {
+    max-width: 100%;
+    margin: auto !important;
+}
+.paymentbtn{
+    padding: 10px 20px;
+    color: #000;
+    font-weight: 600;
+    margin: 10px 0;
+    border: 1px solid #000;
+    border-radius: 25px;
+    background: transparent;
+}
+.paymentbtn:focus, .paymentbtn:active{
+    outline: none;
+}
+.paymentactivebtn button{
+    background: #000;
+    color: #fff;
+}
+.paymenttabcontent {
+    margin: 35px 0 0;
+}
+.tabcontentwo {
+    margin: 25px 0 0;
+}
+.paymenttabcontent .tabcontentwo h5{font-weight: 600; margin: 0 0 15px;}
+.paymenttabcontent .tabcontentwo p {font-weight: 500; margin: 10px 0;}
+
+.paymentsform {
+    margin: 35px 0 0;
+}
+.paymentsform h5 {
+    font-weight: 600;
+}
+
+.radiogroup {
+    margin: 20px 0 30px;
+}
+
+.form-group .character {
+    float: right;
+}
+
+.creatbtn {margin: 25px 0 0;}
+
+/* ///////// custom radio button ///// */
+
+.paymentradio {
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    width: 30%;
+  }
+  .notiradio{
+      display: block;
+      font-size: 14px;
+      font-weight: 400;
+      color: #2f4858;
+      margin-bottom: 0;
+}
+.designradio{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px dashed #cecece;
+    margin-bottom: 15px;
+}
+.activeradio{
+    border: 1px dashed #fa8748;
+}
+  /* Hide the browser's default radio button */
+  .paymentradio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .paymentradio .checkmark {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 20px;
+    width: 20px;
+    background-color: transparent;
+    border-radius: 50%;
+    border: 2px solid #848484;
+  }
+  
+ 
+  
+  /* When the radio button is checked, add a blue background */
+  .paymentradio input:checked ~ .checkmark {
+    background-color: transparent;
+    border: 2px solid #bfe34e;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .paymentradio input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .paymentradio .checkmark:after {
+    top: 4px;
+    left: 4px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background:#bfe34e;
+  }
+
+/* //////// payments view css /////////// */
+.removebtn{
+    background: #f1f1f1;
+    border: none;
+    float: right;
+}
+.paymentviewflex {
+    display: flex;
+    align-items: center;
+}
+.paymentviewflex h5 {
+    font-weight: 600;
+}
+.paymentbtnview {
+    display: block;
+    width: 65%;
+}
+.paymentviewitem p {
+    background: #f1f1f1;
+    padding: 10px 15px;
+    margin: 5px 0px !important;
+    border-radius: 8px;
+}
+
+.modal-body {
+    padding: 60px;
+    text-align: center;
+}
+
+.modal-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.modal-content ul li {
+    display: inline-block;
+}
+.modal-content ul li:active .modalbtn{
+    background: rgb(228, 227, 230);
+    border-color: rgb(228, 227, 230);
+}
+.modalbtn {
+    background: transparent;
+    float: none;
+    border: 1px solid #afafaf;
+    padding: 8px 20px;
+}
+
+
+/* ///////// pagination css //////// */
+.paginatebtn{
+    border: none;
+    background: transparent;
+    outline: none;
+    padding: 10px 25px;
+    display: flex;
+    align-items: center;
+}
+
+.paginatearea {
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.paginatearea span{
+    padding: 0 30px;
+    margin: 0 30px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.paginatebtn .righticon {
+    margin-right: 0;
+    margin-left: 12px;
+}
+
+.paginatebtn span{
+    background: #f8f9fa;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 12px;
+    font-size: 22px;
+    display: block;
+    padding: 0px;
+}
+.paginatebtn span:hover, .paginatebtn span:active, .paginatebtn span:focus{
+    background: #2f4858;
+    box-shadow: rgba(0,0,0,0.5) 0 5px 10px 0;
+    transition: all .5s;
+    color: #fff;
+}
+
+.paymentstable .table{
+    text-align: center;
+}
+.paymentstable .table td {
+    background: #cbe1ef45;
+    border: 2px solid #e3e3e3;
+    font-size: 14px;
+}
+.paymentstable .table .custom-light th{
+    background: #628092;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.paymentstable .table thead th {
+    border: none;
+}
+
+.paginationlist{
+    margin: 25px 0 0;
+}
+.paginationlist ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.paginationlist ul li {
+    display: inline-block;
+}
+.paginationlist ul li button {
+    padding: 0;
+}
+.paginationlist ul li {
+    width: 20%;
+}
+
+/* ///////// consult patient css ///////// */
+
+.consultprofile {
+    padding: 2px !important;
+    background: #bfe34e !important;
+    border: 7px solid #bfe34e;
+    margin: 0 !important;
+}
+
+.consultprofile .img-wrap{
+    border: none;
+}
+
+.consultdesign {
+    border: 2px dashed #bfe34e;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 10px 10px 3px;
+}
+
+.consultcard h5{
+    font-weight: 600;
+    font-size: 15px;
+    margin: 15px 0 10px;
+}
+.consultcard span {
+    text-align: center;
+    color: #959595;
+    font-size: 13px;
+    display: block;
+}
+
+/* .tabarea .form-control{
+    background: transparent !important;
+} */
+
+.consultsocialitem{margin: 35px 0 0;}
+.consultsocialitem ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.consultsocialitem ul li {
+    display: inline-block;
+    width: 18%;
+}
+.consultsocialitem ul li .defaultbtn {
+    border: none;
+    background: #fff;
+    outline: none;
+    padding: 10px 12px;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid #fa8748;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.consultsocialitem ul li .defaultbtn i {
+    font-size: 20px;
+    vertical-align: text-top;
+    line-height: 0;
+    font-weight: 600;
+    display: flex;
+}
+.numberbtn {
+    background: transparent !important;
+    border-radius: 20px !important;
+    border: 1px solid #bfe34e !important;
+    padding: 10px 15px !important;
+}
+.numberbtn:hover {
+    color: #ffffff !important;
+    background: #bfe34e !important;
+}
+.consultsocialitem ul li .defaultbtn:hover, .consultsocialitem ul li .defaultbtn:active, .consultsocialitem ul li .defaultbtn:focus{
+    background-color: #fa8748;
+    color: #fff;
+    box-shadow: rgba(0,0,0,0.5) 0 5px 10px 0;
+    transition: all .5s;
+}
+button:active, button:focus{
+    outline: none;
+} 
+.consultsocialitem ul li button i {
+    margin-right: 10px;
+}
+
+/* ///////////// Reason for visit ////////////// */
+
+.visitImg ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.visitImg ul li {
+    display: inline-block;
+    margin-right: 25px;
+    position: relative;
+    width: 27%;
+}
+
+.visitImg ul li img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.visitImg ul li span{
+    position: absolute;
+    left: 95px;
+    top: 5px;
+}
+.visitImg ul li span img{
+    max-width: 100%;
+}
+
+.visitImg h5{padding: 0 0 25px; font-weight: 600;}
+
+.visitform {
+    margin: 35px 0 0;
+    display: flex;
+    max-width: 74%;
+}
+.smartnotes {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    justify-content: center;
+}
+.chiefcomp{
+    width: 75%;
+}
+.thirdtabcontent textarea {resize: none;}
+.turnonbtn{
+    background: #e6eef5;
+    max-width: 170px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.turnon {margin-bottom: 35px;}
+.turnonbtn i {
+    font-size: 26px;
+    line-height: 0;
+    vertical-align: text-top;
+}
+.turnonbtn span{margin-left: 10px;}
+
+/* ///////// soap tab css ////////// */
+
+.soap_group{
+    border-bottom: 3px dashed #a7a4a4; 
+    padding: 0 0 25px;
+}
+.soapradio .paymentradio{
+    width: auto;
+    margin-right: 20px;
+}
+.maritalstatus {
+    margin: 25px 0;
+    border-bottom: 3px dashed #a7a4a4;
+}
+.maritalstatus h6 {
+    margin: 0 0 20px;
+}
+
+.consultinput h6 {
+    padding: 0 0 15px;
+}
+
+/* ////////// patient info css ///////// */
+
+.patient-info table{
+    background: #f8f9fa;
+    border-radius: 0;
+    border: 1px solid #ddd;
+}
+.patient-info h5 {
+    text-align: left;
+    font-weight: 600;
+    font-size: 15px;
+    margin: 0 0 10px;
+}
+.medical_history {
+    text-align: left;
+    margin: 35px 0 0;
+}
+
+.medical_history h5 {
+    font-weight: 600;
+    font-size: 15px;
+    margin: 0 0 10px;
+}
+.medical_history .table .custom-thead-dark th {
+    background: #697b86;
+    color: #fff;
+}
+.medical_history .table td {
+    border: 1px solid #dee2e6;
+}
+
+.overviewCard{
+    margin: 30px;
+}
+.overviewCard ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.overviewCard ul li{
+    display: inline-block;
+    width: 15%;
+    margin-right: 15px;
+}
+.overviewCard ul li:last-child{
+    margin-right: 0;
+}
+
+.overviewCard ul li .dashboardcard {
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    box-shadow: 0px 0px 2px 0px #bebebe;
+}
+
+.overviewCard ul li .dashboardcard .icon{
+    padding: 5px 6px;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    margin: auto;
+    font-size: 24px;
+    border-radius: 50%;
+}
+
+.overviewCard ul li .dashboardcard h6{
+    margin: 13px 0;
+    color: #000;
+    font-weight: 600;
+}
+.overviewCard ul li .dashboardcard p{
+    color: #2f4858;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 0;
+}
+
+.overviewColumnarea{
+    margin: 45px 0 0;
+}
+
+.overviewColumnarea .overview_consult_head{
+    display: flex;
+    align-items: center;
+}
+.overviewColumnarea .overview_consult_head h5{font-weight: 600; min-width: 85%; margin: 0; font-size: 16px;}
+.overviewColumnarea .overview_consult_head span {font-weight: 500; color: #fa8748;}
+
+.overviewColumnarea .card {
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px 20px;
+    margin: 15px 0 0;
+}
+
+.overviewColumnarea .card .overflex {
+    display: flex;
+    align-items: center;
+    padding: 0 0 15px;
+    border-bottom: 2px solid #bdc6cc;
+    margin: 15px 0 0;
+}
+.overviewColumnarea .card .overflex:last-child{
+    border-bottom: none;
+}
+
+.overviewColumnarea .card .overflex .icon {min-width: 15%;}
+.overviewColumnarea .card .overflex .icon img{
+    width: 55px;
+    border-radius: 50%;
+    height: 55px;
+    object-fit: cover;
+}
+.overviewColumnarea .card .overflex .content {
+    min-width: 65%;
+}
+.overviewColumnarea .card .overflex .content h5{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 0 3px;
+    color: #2f4858;
+}
+.overviewColumnarea .card .overflex .content h5 i {font-size: 14px; margin-left: 8px;}
+.overviewColumnarea .card .overflex .content span{font-size: 14px; color: #2f4858;}
+.sidecontent h6{margin: 0 0 5px; font-size: 14px; color: #2f4858;}
+.sidecontent span i{
+    font-size: 16px;
+    vertical-align: middle;
+    line-height: 0;
+}
+
+.overviewColumnarea .card .overflex .content h6 {
+    margin: 5px 0;
+    font-weight: 500;
+    color: #2f4858;
+    font-size: 14px;
+}
+
+.iconflex {display: flex;}
+.iconflex h6 {padding: 10px; border-radius: 25px;}
+.iconflex span:last-child{margin-right: 0;}
+.iconflex span{
+    display: block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 3px 10px;
+    margin-right: 10px;
+}
+
+.overviewColumnarea .card .overflex .requesticon {
+    min-width: 20%;
+}
+
+.requestscroll {
+    height: 470px;
+    overflow-y: scroll;
+}
+
+.requestscroll::-webkit-scrollbar-track
+{
+	box-shadow: inset 0 0 8px rgba(119, 118, 118, 0.3);
+	background-color: #F5F5F5;
+}
+
+.requestscroll::-webkit-scrollbar
+{
+	width: 5px;
+	background-color: #F5F5F5;
+}
+
+.requestscroll::-webkit-scrollbar-thumb
+{
+	background-color: #2f4858;
+	border: 2px solid #555555;
+}
+
+.requesticon img {
+    width: 70px !important;
+    height: 70px !important;
+}
+
+.overviewColumnarea .card .overflex .Requestscontent {
+    min-width: 60%;
+}
+.overviewColumnarea .card .overflex .Requestscontent h5 span{
+    font-size: 12px;
+    color: #fa8748;
+    margin-left: 10px;
+    font-weight: 500;
+}
+
+/* //////////// clinical updates /////////// */
+
+.updatepic {
+    width: 38%;
+}
+.updatepic img {
+    width: 150px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.updatecontent h5 {
+    font-size: 16px;
+    color: #2f4858;
+    font-weight: 600;
+}
+.updatecontent h6{
+    font-size: 14px;
+    color: #2f4858;
+    font-weight: 400;
+}
+.bottomcontent {
+    display: block;
+}
+
+.bottomcontent span img{
+    margin-right: 5px;
+}
+.bottomcontent span {margin-right: 35px !important; font-size: 12px; color: #2f4858 !important;}
+
+.updatecontent span {
+    color: #bfe34e;
+}
+
+.overviewColumnarea .fullcolumhead h5 {
+    min-width: 92%;
+}
+
+/* /////////// Prescribe page css //////////// */
+
+.prescribecard {
+    padding: 15px;
+}
+.prescribehead{
+    display: flex;
+    align-items: center;
+}
+/* .backarrow{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #f0f2f3;
+    padding: 5px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+.backarrow:hover, .backarrow:active, .backarrow:focus{
+    box-shadow: rgba(0,0,0,0.5) 0 5px 10px 0;
+    transition: all .5s;
+} */
+.prescribehead span {
+    color: #2f4858;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.prescribetabmenu {
+    margin: 35px 0 15px;
+}
+.prescribetabmenucontent {
+    padding:  0 0 15px;
+}
+
+.prescribetabmenu h6 {
+    color: #2f4858;
+    font-weight: 600;
+    font-size: 14px;
+}
+.prescribetabmenu p{
+    font-weight: 400;
+    color: #2f4858;
+}
+.prescribetabmenu ul{
+    list-style-type: none;
+    padding: 25px 15px;
+    margin: 0;
+    background: #f5f5f5;
+    border-radius: 5px;
+}
+
+.prescribetabmenu ul li {
+    display: inline-block;
+    margin-right: 5px;
+}
+.prescribetabmenu ul li:last-child{
+    margin-right: 0;
+}
+.prescribetabmenu ul li .prescribebtn {
+    background: #fff;
+    color: #628092;
+    border: 1px solid #c9ccce;
+    border-radius: 5px;
+    min-width: 143px;
+    padding: 10px 10px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.prescribetabmenu ul .prescribeactive .prescribebtn{
+    background: #fa8748;
+    color: #fff;
+    border-color: #fa8748;
+}
+
+.innertabmenu{
+    border-bottom: 1px solid #ddd;
+    margin: 0 0 30px;
+}
+.innertabmenu ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.innertabmenu ul li:last-child{margin-right: 0;}
+.innertabmenu ul li {
+    display: inline-block;
+    color: #2f4858;
+    font-weight: 500;
+    padding: 0 0 10px;
+    margin-right: 45px;
+    cursor: pointer;
+}
+.innertabmenu ul .inneractive{
+    color: #fa8748;
+    border-bottom: 2px solid #fa8748;
+}
+
+.prescribetabcontentone .form-body {
+    margin-top: 5px;
+}
+
+.readonlypara p{
+    padding: 10px;
+    background: #e7e7e7;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 14px;
+}
+.bgradio{
+    padding: 20px 0 10px;
+    text-align: center;
+    background: #f9f9f9;
+    margin: 0 0 15px;
+}
+.bgradio .form-group{margin: 0;}
+.bgradio h6 {font-weight: 600; text-align: center; margin: 0 0 20px;}
+.bgradio h6 i {color: #bfe34e; font-weight: 600; margin-right: 8px; font-size: 18px;}
+.bgradio .paymentradio {text-align: left;}
+
+.adddrugsarea {
+    padding: 15px;
+}
+.adddrugsarea .addarea {
+    font-size: 14px; 
+    color: #2f4858; 
+    font-weight: 500; 
+    display: flex; 
+    align-items: center;
+    background: transparent;
+    border: none;
+    margin: 0 0 15px;
+}
+.adddrugsarea .addarea span i {line-height: 0; vertical-align: middle;}
+.adddrugsarea .addarea span {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #2f4858;
+    font-size: 18px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.adddrugsarea .addarea span:hover, .adddrugsarea .addarea span:active, .adddrugsarea .addarea span:focus{
+    background: #a2f147;
+    box-shadow: rgba(0,0,0,0.5) 0 5px 10px 0;
+    transition: all .5s;
+    color: #000;
+}
+
+.adddrugsarea p {display: flex; font-size: 14px; align-items: center; font-weight: 500;}
+.adddrugsarea p strong {margin-right: 5px;}
+.adddrugsarea p img{margin-right: 10px;}
+
+.addbtn {
+    background: #2f4858;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px 10px;
+    float: right;
+    margin-top: -36px;
+    margin-right: 2px;
+}
+
+.prescribecontent {text-align: left; margin: 0 0 15px; padding: 0 0 10px;}
+.prescribecontent label {text-align: center; font-size: 14px; font-weight: 500; color: #2f4858;}
+.prescribecontent h5 {
+    color: #2f4858;
+    text-align: center;
+    margin: 0 0 35px;
+}
+.prescribecontent p {
+    font-size: 14px;
+    text-align: center;
+    margin: 5px 0;
+}
+.modalbtnpres {
+    background: #fff;
+    border: 1px solid #ddd;
+}
+/* //////// custom checkbox css ////////// */
+
+.customcheck {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .customcheck input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+ .customcheck .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: transparent;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  
+  /* When the checkbox is checked, add a blue background */
+  .customcheck input:checked ~ .checkmark {
+    background-color: #a2f147;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .customcheck input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .customcheck .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    color: #2f4858;
+  }
+
+/* ////////// order test css ///////// */
+
+.orderhead {margin: 0 0 35px;}
+.orderhead h5 {
+    color: #2f4858;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.customflex {
+    display: flex;
+}
+
+.customflex p {
+    min-width: 90%;
+    background: #f9f9f9;
+}
+
+.customflex span {
+    padding: 3px 10px;
+}
+
+.selecttest h6{
+    padding: 0 0 25px;
+}
+.selecttest p {color: #2f4858; font-size: 15px;}
+.selecttest p span {padding-right: 10px;}
+.orderdateimg{
+    margin: 0 0 10px;
+    display: block;
+    text-align: right;
+}
+
+.orderstatus {
+    margin: 25px 0 0;
+}
+
+.orderstatus label {
+    font-size: 12px !important;
+}
+
+.testlist {
+    background: #f9f9f9;
+}
+.testlist h5 {font-size: 16px; font-weight: 600; margin: 0 0 12px;}
+.testlist .adddrugsarea p {margin:10px 0;}
+
+/* ////////////// patients page css //////////// */
+
+.patient-wrapper {
+    padding: 15px;
+}
+
+.main-heading h5{
+    font-size: 16px;
+    font-weight: 600;
+    color: #2f4858;
+}
+.main-heading h5 span {
+    font-size: 12px;
+    color: #2f4858;
+    font-weight: 400;
+}
+
+.searchicon {
+    float: left;
+    margin-top: -30px;
+    position: absolute;
+    right: 30px;
+}
+
+.patientlist ul {list-style-type: none; padding: 0; margin: 0;}
+.patientlist ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.patientlist ul li:last-child {margin-right: 0;}
+
+.patientcard {
+    background: #f8f9fa;
+    border-radius: 10px;
+    border: 2px solid #e0e4ed;
+    padding: 15px;
+    min-width: 214px;
+    margin-bottom: 65px;
+}
+
+.patientimg img{
+    display: block;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: 3px solid #c4d5e1;
+    margin: auto;
+    margin-top: -40px;
+    object-fit: cover;
+}
+
+.patientprofile {
+    padding: 20px 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.patientprofile h5{
+    font-size: 14px;
+    color: #2f4858;
+}
+.patientprofile p {
+    margin: 0;
+    font-size: 14px;
+    color: #2f4858;
+    font-weight: 500;
+}
+
+.patientdetail{
+    padding: 15px 0 0;
+}
+.patientdetail h6,.patientdetail p{
+    color: #2f4858;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.bottomdetail {
+    padding: 5px 0 0;
+}
+
+.patient-pagination ul {
+    text-align: center;
+}
+
+.patient-pagination ul li {
+    width: 5%;
+}
+
+/* ////////// index notification css //////// */
+
+.notificationHeading{
+    margin: 0 0 35px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+/* ///////// clinical details ///////// */
+
+.back{
+    display: block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    background: #f3f3f3;
+    color: #000;
+    border-radius: 50%;
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.back:hover, .back:active, .back:focus{
+    background: #2f4858;
+    box-shadow: rgba(0,0,0,0.5) 0 5px 10px 0;
+    transition: all .5s;
+    color: #fff;
+}
+
+.listingitem .bottomcontent span {
+    margin-right: 15px !important;
+}
+.detailone .mainpic{
+    width: 100%;
+    border-radius: 10px;
+}
+.listingitem {
+    margin: 15px 0 0;
+    padding: 0 0 10px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.listingitem ul{list-style-type: none; padding: 0; margin: 0;}
+.listingitem ul li{display: inline-block; margin-right: 20px; color: #2f4858; font-weight: 600;}
+.listingitem ul li span{font-size: 14px; font-weight: 400;}
+.listingitem ul li:last-child{margin-right: 0;}
+.listingitem ul li i {margin-right: 5px; line-height: 0; vertical-align: middle;}
+
+.detailtwo {
+    padding: 20px 0;
+}
+.detailtwo h5 {
+    font-weight: 600;
+    color: #2f4858;
+    font-size: 17px;
+    margin: 20px 0 35px;
+}
+.detailtwo p{
+    font-weight: 400;
+    color: #818384;
+    margin: 15px 0;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+
+.detailthree .listingitem{
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 10px 0px;
+}
+.detailthree .listingitem ul{
+    text-align: center;
+}
+
+.detailvisit{
+    border-radius: 10px;
+    border: 1px solid #d8dce1;
+    background: #f8f9fa;
+}
+.detailvisit ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.detailvisit ul li {
+    border-bottom: 1px solid #d8dce1;
+    padding: 12px 0;
+    font-size: 14px;
+}
+.detailvisit ul li span{
+    max-width: 135px;
+    display: block;
+    margin: auto;
+}
+.visitdetailarea {
+    padding: 35px;
+}
+
+.detail-info .table td {
+    border: 1px solid #dee2e6;
+    padding: 7px 10px;
+    text-align: center;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+/* ///////// Availability css /////////// */
+.availability_pagination{
+    padding: 50px 0 0;
+}
+
+.availability_pagination .patient-pagination ul {
+    text-align: left;
+}
+.availability_pagination .patient-pagination ul li {
+    width: 25%;
+}
+
+.availability_pagination .patient-pagination ul li:last-child button{margin-right: 0;}
+.availability_pagination .patient-pagination ul li button {width: 100%;}
+
+.middlepaginate {
+    font-weight: 600;
+}
+.availability_pagination .paginationlist {
+    margin: 0;
+}
+.rightgroup {
+    text-align: right;
+}
+.Availability_table {
+    margin: 25px 0 0;
+}
+
+.Availability_table .table th{
+    border-top: none;
+    border-right: 1px solid #2f4858;
+    border-left: 1px solid #2f4858;
+    border-bottom: 2px solid #2f4858;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+}
+
+.Availability_table .table th:first-child{text-align: left;}
+
+.Availability_table .table th:last-child, .Availability_table .table th:first-child{
+    border-right: none;
+    border-left: none;
+}
+
+.Availability_table .table td {
+    border: 2px solid #e3e3e3;
+    font-size: 14px;
+    position: relative;
+}
+
+.Availability_table .table td input[type=checkbox]{
+    position: absolute;
+    width: 90%;
+    height: 50%;
+    padding: 30px;
+    display: block;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.Availability_table .table td span{text-align: right;}
+
+.tableday {
+    float: left;
+}
+.daynum {
+    display: block;
+    text-align: right;
+    padding: 0 15px;
+}
+
+.Availability_table .table td:last-child{
+    border-right: none;
+    border-left: none;
+}
+.Availability_table .table td:first-child{
+    border-left: none;
+}
+
+.greytd {
+    background: #f1f1f1;
+}
+
+.activeright {
+    background:  url('../images/icons/check.png'), #c1f147 !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    border: none !important;
+}
+
+.dayactive {
+    border-left: 5px solid #a2f147 !important;
+    background: #bfe34e21;
+}
+
+.removebgbr {
+    border: none !important;
+    background: #fff;
+}
+
+/* /////////// video modal css ///////// */
+
+.video_dialogue{
+    max-width: 1080px;
+}
+.video-body {
+    padding: 30px;
+    min-height: 80vh;
+}
+.videopic img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    display: block;
+    object-fit: cover;
+}
+.ratequality p, .accuracyrate p {
+    margin: 0;
+    font-size: 14px;
+    color: #2f4858;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.centerrating{
+    padding: 30px 60px 60px;
+    text-align: center;
+}
+.ratequality{
+    padding: 40px 0 20px;
+}
+.accuracyrate{
+    padding: 20px 0 20px;
+}
+.videoprofile h5{
+    font-size: 15px;
+    color: #2f4858;
+    font-weight: 600;
+}
+
+/* ///////// custom rating css ///////// */
+
+.rating {
+    border: none;
+  }
+  
+  .rating > label {
+    color: #90a0a357;
+  }
+  
+  .rating > label:before {
+    margin: 5px;
+    font-size: 26px;
+    font-family: FontAwesome;
+    content: "\f005";
+    display: inline-block;
+  }
+  
+  .rating > input {
+    display: none;
+  }
+  
+  .rating > input:checked ~ label,
+  .rating:not(:checked) > label:hover,
+  .rating:not(:checked) > label:hover ~ label {
+    color: #a2f147;
+  }
+  
+  .rating > input:checked + label:hover,  
+  .rating > input:checked ~ label:hover,
+  .rating > label:hover ~ input:checked ~ label,
+  .rating > input:checked ~ label:hover ~ label {
+    color: #a2f147;
+  }
+
+
+.footer{
+    padding: 90px 0 0;
+    text-align: center;
+}
+
+.content-wrapper{
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.updatecontent{
+    padding-left: 20px;
+}
+
+.updatecontent p {
+    font-weight: 200;
+    line-height: 20px;
+}
+
+
+
+
+
+

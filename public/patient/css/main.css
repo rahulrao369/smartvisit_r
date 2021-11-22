@@ -1,0 +1,650 @@
+
+
+.sidemenu{
+    width: 300px;
+    top: 0px;
+}
+
+.side-wrapper {
+    margin: 0;
+    margin-left: 300px;
+    margin-top: 75px;
+    padding-top: 0px;
+    padding: 25px 15px;
+    width: 76.7%;
+}
+
+.overviewCard{
+    margin: 0px;
+    padding: 0px;
+}
+
+.overviewColumnarea{
+    margin-top: 0px;
+}
+
+
+::-webkit-scrollbar-track{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 2px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar{
+	width: 4px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb{
+	border-radius: 2px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #2f4858;
+}
+
+.sidenav{
+    padding: 25px 13px;
+}
+
+.sidenav ul li {
+    padding: 10px 20px;
+    color: #000;
+    font-weight: 600;
+    margin: 7px 0;
+    display: flex;
+    align-items: center;
+}
+
+.sidenav ul li a {
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+    width: 100%;
+}
+
+.sidenav ul li a img{
+    width: 28px;
+    margin-right: 7px;
+}
+
+.sidenav ul li i{
+    display: flex;
+    margin-right: 15px;
+}
+
+.profile-icon {
+    width: auto;
+    margin-right: 15px;
+}
+
+.settingicon h6 {
+    margin: 0;
+    color: #657d8c;
+    text-align: left;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 4px;
+}
+
+.settingicon p {
+    margin: 0;
+    color: #2f4858;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.profilesidebar{
+    padding: 10px 10px;
+}
+
+.dashboard_cards{
+    width: 100%;
+    background: none;
+    padding: 15px 0px;
+    margin-bottom: 35px;
+}
+
+.dashboard_cards ul{
+    margin: 0px auto;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+}
+
+.dashboard_cards li {
+    float: none;
+    display: inline-block;
+    margin-right: 13px !important;
+    width: 15% !important;
+}
+
+.dashboard_cards li:last-child{
+    margin-right: 0px !important;
+}
+
+li .list_card{
+    width: 100%;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0px 0px 3px #c1c1c1;
+    padding: 15px 15px;
+    border-radius: 5px;
+}
+
+.pics_outer {
+    background: #bfe34e29;
+    width: 40px;
+    height: 40px;
+    padding: 6px;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li .list_card .pics_outer img {
+    max-width: 17px;
+    object-fit: cover;
+}
+
+li .list_card i{
+    font-size: 21px;
+}
+
+li .list_card h3{
+    margin: 0;
+    line-height: normal;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 11px;
+}
+
+li .list_card p{
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 100;
+    color: #585757;
+    margin-top: 4px;
+}
+
+.overviewColumnarea .overview_consult_head h5{
+    font-size: 15px;
+    color: #383838;
+}
+
+.overviewColumnarea .overview_consult_head span{
+    font-size: 13px;
+}
+
+
+.nodata{
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.overviewColumnarea .card .overflex .icon img{
+    width: 48px;
+    height: 48px;
+}
+
+.sidecontent{
+    display: flex;
+    width: 100%;
+    text-align: right;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.sidecontent h6{
+    margin: 0px;
+}
+
+.overviewColumnarea .card .overflex .content h5{
+    display: flex;
+    align-items: end;
+    margin-bottom: 0px;
+}
+
+.overviewColumnarea .card .overflex .content span {
+    font-size: 13px;
+    color: #6f6f6f;
+    font-weight: 100;
+}
+
+.overviewColumnarea .card .overflex{
+    border-bottom: 1px solid #efefef;
+}
+
+.cols_inside {
+    width: 100%;
+    height: 275px;
+    max-height: 275px;
+    margin-bottom: 40px;
+    overflow: hidden;
+}
+
+.all_listcard .card {
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px 20px;
+    margin: 15px 0 0;
+    overflow: auto;
+    height: 100%;
+    max-height: 275px;
+}
+
+.all_listcard{
+    width: 100%;
+    background: transparent;
+    margin-bottom: 25px;
+}
+
+.overviewColumnarea .card .overflex .content h6 {
+    margin: 3px 0px 0px;
+    font-weight: 500;
+    color: #2f4858;
+    font-size: 12px;
+}
+
+.iconflex span {
+    display: flex;
+    width: 35px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidecontent span i {
+    font-size: 15px;
+    vertical-align: middle;
+    line-height: 0;
+}
+
+.iconflex span:last-child{
+    margin-left: 10px;
+}
+
+.iconflex span i.flaticon-close{
+    font-size: 10px;
+}
+
+.updatepic {
+    width: 150px;
+}
+
+.updatecontent p {
+    font-weight: 100;
+    line-height: normal;
+    font-size: 13px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.bottomcontent span {
+    margin-right: 20px !important;
+    font-size: 12px;
+    color: #2f4858 !important;
+    display: flex;
+    align-items: center;
+    float: left;
+}
+
+.bottomcontent span img {
+    width: 28px;
+}
+
+.updatepic img{
+    height: 100px;
+}
+
+.updatecontent h5 {
+    font-size: 14px;
+}
+
+.profileset .img-wrap{
+    width: 100px;
+    height: 100px;
+}
+
+.profileset .img-wrap img{
+    min-height: 100px;
+    max-width: 100px;
+}
+
+.consultdesign{
+    margin-bottom: 0px;
+}
+
+.numberbtn{
+    padding: 8px 15px !important;
+    font-size: 12px;
+    min-width: 95px;
+}
+
+.numberbtn .defaultbtn i{
+    text-decoration: none !IMPORTANT;
+    margin-right: 5px;
+}
+
+.consultsocialitem ul li{
+    width: auto;
+    margin: 0px 10px;
+}
+
+.consultsocialitem ul li .defaultbtn{
+    padding: 8px 25px;
+    font-size: 12px;
+}
+
+.tabitem ul li{
+    font-size: 13px;
+}
+
+.wrapper-card .form-body {
+    margin-top: 0px;
+}
+
+.patient-info h5{
+    font-size: 14px;
+}
+
+.table td, .table th{
+    font-size: 13px;
+    color: #777;
+}
+
+.table thead th{
+    font-weight: 100;
+}
+
+.medical_history .table td img{
+    width: 25px;
+}
+
+.visitImg h5 {
+    padding: 0 0 10px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.table thead th{
+    border-bottom: none;
+}
+
+.visitImg table td, .visitImg table th{
+    font-size: 13px;
+    color: #777;
+    padding: 9px 0px;
+}
+
+.sidebar_active a {
+    color: #000 !important;
+}
+
+.isActive{
+    display: none;
+}.notActive{
+    display: block;
+}
+
+.sidebar_active .isActive{
+    display: block !important;
+}.sidebar_active .notActive{
+    display: none !important;
+}
+
+.wrapper-card .form-body label {
+    color: #717171;
+    font-size: 14px;
+    display: block;
+    font-weight: 100;
+}
+
+.header{
+    top: 0;
+}
+
+.sidenav ul{
+    margin-top: 35px;
+}
+.overviewCard2 {
+    margin: 0;
+}
+
+.sidebar_active {
+    background: #bfe34e;
+    border-radius: 25px;
+}
+
+.overviewCard2 {
+    margin: 0;
+}
+
+.dami-content p{
+    margin: 0;
+    font-size: 13px;
+    font-weight: 100;
+    color: #404040;
+    text-align: center;
+}
+
+.dami-content.text-center h1 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none !important;
+    color: inherit;
+}
+
+.card a h6{
+    margin: 0px;
+}
+
+.overviewColumnarea .card{
+    padding-top: 20px;
+}
+
+.overviewColumnarea{
+    margin-bottom: 40px;
+}
+
+.overviewColumnarea p{
+    font-size: 14px;
+}
+
+.button-field{
+    width: 100%;
+    position: relative;
+}
+
+.button-field a.m-3{
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+
+.btn.focus, .btn:focus{
+    box-shadow: none !important;
+}
+
+.Reason-wap h2 {
+    text-align: initial;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+select#reason_for_vist {
+    background-color: #f1f1f1 !important;
+    border: none !important;
+    padding: 10px !important;
+    border-radius: 5px !important;
+    position: relative !important;
+    width: 100%;
+    background: transparent !important;
+    border: 1px solid #000 !important;
+    outline: none !important;
+    font-size:14px;
+}
+
+.esymptoms{
+    margin-top: 0px !important;
+}
+
+.form-group.main label{
+    margin-top: 0px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.Reason-wap2 article {
+    position: relative;
+    /* width: 140px; */
+    /* height: 100px; */
+    float: left;
+    /* border: 2px solid #50bcf2; */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 13px 17px 19px 8px;
+    border-radius: 23px;
+    box-shadow: 1px 2px 0px #cccccc;
+}
+
+
+.main-form-section .formstart{
+    width: 100%;
+}
+
+.form-control {
+    height: 47px;
+    padding: 9px 20px;
+    font-size: 12px;
+}
+
+.text-danger {
+    color: #dc3545!important;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.blockdata h6 {
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.blockdata p{
+    font-size: 13px;
+    font-weight: 100 !important;
+}
+
+.blockdata .btn-primary{
+    padding: 6px 18px;
+    font-size: 14px;
+}
+
+form{
+    margin-bottom: 40px;
+}
+
+#option-1:checked:checked ~ .option-1 span, #option-2:checked:checked ~ .option-2 span {
+    color: #000;
+    font-size: 15px;
+}
+
+.radio-wrapper .option .dot::before{
+    background: #ffffff;
+}
+
+#option-1:checked:checked ~ .option-1 .dot, #option-2:checked:checked ~ .option-2 .dot {
+    background: #000;
+}
+
+.radio-wrapper .option span {
+    font-size: 16px;
+    color: #000000;
+}
+
+.radio-wrapper .option .dot{
+    background: #000000;
+}
+
+.radio-wrapper .option{
+    margin: 0px 10px;
+    height: 85%;
+}
+
+.radio-wrapper{
+    margin-top: 20px;
+}
+
+.formstart {
+    margin: 40px 0 0;
+}
+
+.formstart label {
+    font-size: 13px;
+    display: block;
+    color: #616161;
+}
+
+.editbtn {
+    background: #bbde50;
+    color: #000;
+}
+
+.submitwrapper a{
+    font-size: 13px;
+}
+
+.accountwrap p{
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+
+.list-unstyled li {
+    font-size: 12px !important;
+    line-height: 24px;
+}
+
+.progress{
+    background: transparent;
+}
+
+.formstart label a {
+    font-size: 12px;
+    color: #111;
+}
+
+.avatar-profile-upload .avatar-profile-preview{
+    border: 6px solid #bee24e !important;
+}
+
+.user-from input.form-control {
+    border-bottom: none !important;
+    border: 1px solid #e8e8e8 !important;
+    border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

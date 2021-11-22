@@ -1,0 +1,9 @@
+<svg id="Component_64_2" data-name="Component 64 – 2" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <rect id="Rectangle_1482" data-name="Rectangle 1482" width="32" height="32" fill="none"/>
+  <g id="Group_3990" data-name="Group 3990" transform="translate(-210.029 -238.818)">
+    <path id="Rectangle_1689" data-name="Rectangle 1689" d="M0,0H5.078a0,0,0,0,1,0,0V14.878a2.539,2.539,0,0,1-2.539,2.539h0A2.539,2.539,0,0,1,0,14.878V0A0,0,0,0,1,0,0Z" transform="translate(223.941 248.179)" fill="none" stroke="#2f4858" stroke-miterlimit="10" stroke-width="2"/>
+    <rect id="Rectangle_1690" data-name="Rectangle 1690" width="9.911" height="3.293" rx="1.647" transform="translate(221.54 244.886)" fill="none" stroke="#2f4858" stroke-miterlimit="10" stroke-width="2"/>
+    <line id="Line_184" data-name="Line 184" x2="2.588" transform="translate(223.941 254.364)" fill="none" stroke="#2f4858" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <line id="Line_185" data-name="Line 185" x2="1.752" transform="translate(223.941 257.861)" fill="none" stroke="#2f4858" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+  </g>
+</svg>

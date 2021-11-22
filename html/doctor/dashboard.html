@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/flaticon.css">
+<!-- CSS only -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <header class="header">
+        <div class="container-fluid">
+    
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#">
+                    <img src="images/blacklogo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="" class="nav-link">
+                            <img src="images/icons/call.png" alt=""> +0123456789
+                        </a>
+                    </li>
+                    <li class="nav-item hoverlink">
+                        <a href="#" class="nav-link">
+                            <img src="images/icons/bell.png" alt="">
+                            <span class="badge">4</span>
+                        </a>
+                        <div class="notification_Card">
+                            <ul>
+                                <li>
+                                    <i class="fa fa-circle" aria-hidden="true"></i> 
+                                    <p>You Have 3 New <strong>Consults Requests</strong>
+                                        <span>6 hours ago</span>
+                                    </p>
+                                    
+                                </li>
+                                <li>
+                                    <i class="fa fa-circle" aria-hidden="true"></i> <p><strong>Payment-</strong> $350 Added To Your Bank Account
+                                        <span>8 hours ago</span></p>
+                                    
+                                </li>
+                                <li>
+                                    <i class="fa fa-circle" aria-hidden="true"></i> <p><strong>Payment-</strong> $350 Added To Your Bank Account
+                                        <span>10 hours ago</span> </p>
+                                    
+                                </li>
+                                <li>
+                                    <i class="fa fa-circle" aria-hidden="true"></i> <p>You Have 2 New Unread <strong>Clinical Updates</strong> 
+                                        <span>12 hours ago</span></p>
+                                    
+                                </li>
+                            </ul>
+                                                </div>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="" class="nav-link">
+                            <img src="images/icons/logout.png" alt="">
+                        </a>
+                    </li>
+                  </ul>
+                  
+                </div>
+              </nav>
+        </div>
+    </header>
+
+
+<section class="content-wrapper"> 
+            <div class="sidemenu">
+                <div class="sidenav">
+
+                    <a href="dashboard.html">
+                        <div class="profilesidebar activethis">
+                             <div class="profile-icon">
+                                 <img src="images/profile.jpg" alt="">
+                                 <div class="seticon">
+                                     <img src="images/icons/setting.png" alt="">
+                                 </div>
+                             </div>
+                             <div class="settingicon">
+                                 <div>
+                                     <p>Dr zohra salehi</p>
+                                 <h6>Dermatologist</h6>
+                                 </div>
+                             </div>
+                         </div>
+                        </a>
+
+                    <ul>
+                        <li>
+                            <a href="overview.html"> <i class="flaticon-home"></i> Overview</a>
+                        </li>
+                        <li>
+                            <a href="consult_patient.html"> <i class="flaticon-phone-with-message"></i> Consult</a>
+                        </li>
+                        <li>
+                            <a href="patients.html"> <i class="flaticon-user"></i> Patients</a>
+                        </li>
+                        <li>
+                            <a href="clinical_update.html"> <i class="flaticon-document"></i> Clinical Updates +2</a>
+                        </li>
+                        <li>
+                            <a href="availability.html"> <i class="flaticon-select"></i> My availability</a>
+                        </li>
+                        <li>
+                            <a href="payments.html"> <i class="flaticon-credit-card"></i> Payments</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="side-wrapper">
+               <div class="card wrapper-card">
+                  <div class="card-body">
+                    <div class="profilecard">
+                        <div class="profilecardcontent">
+                         <div class="form-group text-center profileset">
+                             <label for="photo-upload" class="custom-file-upload fas">
+                                 <div class="img-wrap img-upload">
+                                     <img for="photo-upload" src="images/profile.jpg">
+                                 </div>
+                                 <div class="p-image"> <i class="flaticon-camera upload-button"></i>
+                                     <input class="file-upload" id="photo-upload" type="file" name="image" accept="image/*">
+                                 </div>
+                             </label>
+                         </div>
+                        </div>
+                        <h5>Dr Zohra Salehi</h5>
+ 
+                        <div class="tabitem">
+                            <ul>
+                                <li class="tabactive" id="demographic">
+                                    Demographic
+                                </li>
+                                <li id="notification">
+                                     Notification
+                                 </li>
+                                 <li id="password">
+                                     Password
+                                 </li>
+                            </ul>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="tabarea">
+                      <div class="firsttabcontent">
+                        <div class="card-body form-body">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="btnedit">
+                                        <button type="button" class="btn orangebtn">
+                                          <i class="flaticon-write"></i>  Edit
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 offset-md-3">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                             <div class="form-group">
+                                                 <label for="">First Name</label>
+                                                 <input type="text" class="form-control">
+                                             </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                             <div class="form-group">
+                                                 <label for="">Last Name</label>
+                                                 <input type="text" class="form-control">
+                                             </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                             <div class="form-group">
+                                                 <label for="">Email</label>
+                                                 <input type="email" class="form-control">
+                                             </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                             <div class="form-group">
+                                                 <label for="">Phone</label>
+                                                 <input type="number" class="form-control">
+                                             </div>
+                                        </div>
+                                    </div>
+     
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                             <h5 class="form-title">Mailing Address</h5>
+                                        </div>
+     
+                                        <div class="col-md-6">
+                                         <div class="form-group">
+                                             <label for="">First Name</label>
+                                             <input type="text" class="form-control">
+                                         </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                         <div class="form-group">
+                                             <label for="">Last Name</label>
+                                             <input type="text" class="form-control">
+                                         </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                         <div class="form-group">
+                                             <label for="">Email</label>
+                                             <input type="email" class="form-control">
+                                         </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                         <div class="form-group">
+                                             <label for="">Phone</label>
+                                             <input type="number" class="form-control">
+                                         </div>
+                                    </div>
+     
+                                     <div class="col-md-12">
+                                         <div class="form-group">
+                                             <label for="">Address 1</label>
+                                             <input type="text" class="form-control">
+                                         </div>
+                                     </div>
+     
+                                     <div class="col-md-12">
+                                         <div class="form-group">
+                                             <label for="">Address 2</label>
+                                             <input type="text" class="form-control">
+                                         </div>
+                                     </div>
+     
+                                     <div class="col-md-6">
+                                         <div class="form-group">
+                                             <label for="">City/Town</label>
+                                             <select name="" id="" class="form-control">
+                                                 <option value="" selected disabled>--select--</option>
+                                             </select>
+                                         </div>
+                                    </div>
+     
+                                    <div class="col-md-6">
+                                         <div class="form-group">
+                                             <label for="">Zipcode</label>
+                                             <select name="" id="" class="form-control">
+                                                 <option value="" selected disabled>--select--</option>
+                                             </select>
+                                         </div>
+                                     </div>
+     
+                                     <div class="col-md-6">
+                                         <div class="form-group">
+                                             <label for="">Country</label>
+                                             <select name="" id="" class="form-control">
+                                                 <option value="" selected disabled>--select--</option>
+                                             </select>
+                                         </div>
+                                     </div>
+     
+                                     <div class="col-md-6">
+                                         <div class="form-group">
+                                             <label for="">State</label>
+                                             <select name="" id="" class="form-control">
+                                                 <option value="" selected disabled>--select--</option>
+                                             </select>
+                                         </div>
+                                     </div>
+                                    </div>
+     
+                                    <div class="row">
+                                     <div class="col-md-12 bottmMRG">
+                                          <h5 class="form-title">Mailing Address</h5>
+                                          <p class="form_p">Same as Residence Address?</p>
+                                          <label for="" class="checkbox-inline">
+                                          <input type="checkbox"> if yes, Import The Residence Address
+                                         </label>
+                                     </div>
+     
+                                     <div class="col-md-6">
+                                         <div class="form-group">
+                                             <label for="">First Name</label>
+                                             <input type="text" class="form-control">
+                                         </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                         <div class="form-group">
+                                             <label for="">Last Name</label>
+                                             <input type="text" class="form-control">
+                                         </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                         <div class="form-group">
+                                             <label for="">Email</label>
+                                             <input type="email" class="form-control">
+                                         </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                         <div class="form-group">
+                                             <label for="">Phone</label>
+                                             <input type="number" class="form-control">
+                                         </div>
+                                    </div>
+     
+                                     <div class="col-md-12">
+                                         <div class="form-group">
+                                             <label for="">Address 1</label>
+                                             <input type="text" class="form-control">
+                                         </div>
+                                     </div>
+     
+                                     <div class="col-md-12">
+                                         <div class="form-group">
+                                             <label for="">Address 2</label>
+                                             <input type="text" class="form-control">
+                                         </div>
+                                     </div>
+     
+                                     <div class="col-md-6">
+                                         <div class="form-group">
+                                             <label for="">City/Town</label>
+                                             <select name="" id="" class="form-control">
+                                                 <option value="" selected disabled>--select--</option>
+                                             </select>
+                                         </div>
+                                    </div>
+     
+                                    <div class="col-md-6">
+                                         <div class="form-group">
+                                             <label for="">Zipcode</label>
+                                             <select name="" id="" class="form-control">
+                                                 <option value="" selected disabled>--select--</option>
+                                             </select>
+                                         </div>
+                                     </div>
+     
+                                     <div class="col-md-6">
+                                         <div class="form-group">
+                                             <label for="">Country</label>
+                                             <select name="" id="" class="form-control">
+                                                 <option value="" selected disabled>--select--</option>
+                                             </select>
+                                         </div>
+                                     </div>
+     
+                                     <div class="col-md-6">
+                                         <div class="form-group">
+                                             <label for="">State</label>
+                                             <select name="" id="" class="form-control">
+                                                 <option value="" selected disabled>--select--</option>
+                                             </select>
+                                         </div>
+                                     </div>
+     
+                                 </div>
+                           
+     
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="secondtabcontent">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-3">
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <h5 class="notificationHeading">How To Get Notifications?</h5>
+                                        <div class="form-group soapradio">
+
+                                             <div class="designradio activeradio">
+                                                <label class="paymentradio notiradio">Mail
+                                                    <input type="radio" checked="checked" name="radio">
+                                                    <span class="checkmark"></span>
+                                                  </label>
+                                             </div>
+
+                                             <div class="designradio">
+                                                <label class="paymentradio notiradio">Phone
+                                                    <input type="radio" name="radio">
+                                                    <span class="checkmark"></span>
+                                                  </label>
+                                             </div>
+
+                                              <div class="designradio">
+                                                <label class="paymentradio notiradio">Both
+                                                    <input type="radio" name="radio">
+                                                    <span class="checkmark"></span>
+                                                  </label>
+                                              </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-3">
+                                    <div class="btnedit">
+                                        <button type="button" class="btn orangebtn">
+                                         <i class="flaticon-select"></i>  Save
+                                        </button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="thirdtabcontent">
+                        <div class="card-body form-body">
+                            <div class="row">
+                                <div class="col-md-6 offset-md-3">
+                                    <div class="passwordfield">
+                                        <h5 class="notificationHeading">Change Password</h5>
+                                        <div class="form-group">
+                                           <label for="">Old Password</label>
+                                           <input type="password" class="form-control" >
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="">New Password</label>
+                                            <input type="password" class="form-control" >
+                                         </div>
+
+                                         <div class="form-group">
+                                            <label for="">Repeat New Password</label>
+                                            <input type="password" class="form-control" >
+                                         </div>
+
+                                         <div class="form-group">
+                                            <button type="button" class="btn orangebtn">
+                                            Change Password
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                  </div>
+               </div>
+
+               
+            </div>
+
+           
+</section>
+
+
+
+
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $('.firsttabcontent').show();
+        $('.secondtabcontent').hide();
+        $('.thirdtabcontent').hide();
+        $('#demographic').click(function(){
+            $('.firsttabcontent').show();
+            $('.secondtabcontent').hide();
+            $('.thirdtabcontent').hide();
+            $(this).addClass('tabactive').siblings().removeClass("tabactive");
+        });
+        $('#notification').click(function(){
+            $('.firsttabcontent').hide();
+            $('.secondtabcontent').show();
+            $('.thirdtabcontent').hide();
+            $(this).addClass('tabactive').siblings().removeClass("tabactive");
+        });
+        $('#password').click(function(){
+            $('.firsttabcontent').hide();
+            $('.secondtabcontent').hide();
+            $('.thirdtabcontent').show();
+            $(this).addClass('tabactive').siblings().removeClass("tabactive");
+        })
+    })
+</script>
+
+<script>
+    $(document).ready(function() {
+    $('.notiradio input').click(function () {
+        $('input:not(:checked)').parent().parent().removeClass("activeradio");
+        $('input:checked').parent().parent().addClass("activeradio");
+    });    
+    });
+</script>
+
+</body>
+</html>

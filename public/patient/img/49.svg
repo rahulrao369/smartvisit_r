@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23" height="26.15" viewBox="0 0 23 26.15">
+  <g id="Group_3669" data-name="Group 3669" transform="translate(-2.25 -1.642)">
+    <g id="Group_3669-2" data-name="Group 3669" transform="translate(6.964 2.642)">
+      <path id="Path_5422" data-name="Path 5422" d="M10.076,3.968,6.353,5.639V6.758a8.643,8.643,0,1,0,17.286,0V5.639L19.918,3.968" transform="translate(-6.353 -2.257)" fill="none" stroke="#35b8c8" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_154" data-name="Line 154" y2="3.138" transform="translate(13.442)" fill="none" stroke="#35b8c8" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+      <line id="Line_155" data-name="Line 155" y2="3.138" transform="translate(3.683)" fill="none" stroke="#35b8c8" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    </g>
+    <path id="Path_5423" data-name="Path 5423" d="M5.387,18.9a4.93,4.93,0,0,0,9.861,0V12.829" transform="translate(0.33 2.957)" fill="none" stroke="#35b8c8" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+    <g id="Ellipse_245" data-name="Ellipse 245" transform="translate(4.25 17.332)" fill="none" stroke="#35b8c8" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2">
+      <circle cx="1.357" cy="1.357" r="1.357" stroke="none"/>
+      <circle cx="1.357" cy="1.357" r="2.357" fill="none"/>
+    </g>
+  </g>
+</svg>

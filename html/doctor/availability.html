@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Availability</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/flaticon.css">
+<!-- CSS only -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+    <header class="header">
+        <div class="container-fluid">
+    
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#">
+                    <img src="images/blacklogo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a href="" class="nav-link">
+                            <img src="images/icons/call.png" alt=""> +0123456789
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="" class="nav-link">
+                            <img src="images/icons/bell.png" alt="">
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a href="" class="nav-link">
+                            <img src="images/icons/logout.png" alt="">
+                        </a>
+                    </li>
+                  </ul>
+                  
+                </div>
+              </nav>
+        </div>
+    </header>
+
+
+<section class="content-wrapper"> 
+            <div class="sidemenu">
+                <div class="sidenav">
+
+                    <a href="dashboard.html">
+                        <div class="profilesidebar">
+                             <div class="profile-icon">
+                                 <img src="images/profile.jpg" alt="">
+                                 <div class="seticon">
+                                     <img src="images/icons/setting.png" alt="">
+                                 </div>
+                             </div>
+                             <div class="settingicon">
+                                 <div>
+                                     <p>Dr zohra salehi</p>
+                                 <h6>Dermatologist</h6>
+                                 </div>
+                             </div>
+                         </div>
+                        </a>
+
+                        <ul>
+                            <li>
+                                <a href="overview.html"> <i class="flaticon-home"></i> Overview</a>
+                            </li>
+                            <li>
+                                <a href="consult_patient.html"> <i class="flaticon-phone-with-message"></i> Consult</a>
+                            </li>
+                            <li>
+                                <a href="patients.html"> <i class="flaticon-user"></i> Patients</a>
+                            </li>
+                            <li>
+                                <a href="clinical_update.html"> <i class="flaticon-document"></i> Clinical Updates +2</a>
+                            </li>
+                            <li class="sidebar_active">
+                                <a href="availability.html"> <i class="flaticon-select"></i> My availability</a>
+                            </li>
+                            <li>
+                                <a href="payments.html"> <i class="flaticon-credit-card"></i> Payments</a>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+
+            <div class="side-wrapper">
+               <div class="card wrapper-card">
+                  
+                    <div class="card-body">
+                        <div class="main-heading">
+                            <h5>My Availability</h5>
+                        </div>
+                        <div class="availability_pagination">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="paginationlist patient-pagination">
+                                    <ul>
+                                        <li>
+                                            <button type="button" class="paginatebtn">
+                                                <span>
+                                                    <i class="fa fa-angle-left" aria-hidden="true"></i>
+                                                </span>
+                                                April
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <span class="middlepaginate">May 2020</span>
+                                        </li>
+                                        <li>
+                                            <button type="button" class="paginatebtn">
+                                                June
+                                               <span class="righticon">
+                                                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                                                </span>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+    
+                            <div class="col-md-4">
+                                <div class="form-group rightgroup">
+                                   <a href="availability_edit.html">
+                                    <button type="button" class="orangebtn">
+                                        <i class="flaticon-write"></i> Edit Mode
+                                    </button>
+                                   </a>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+
+
+                    <div class="Availability_table">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Day</th>
+                                    <th>10 am - 12 am</th>
+                                    <th>12 am - 2 pm</th>
+                                    <th>2 pm - 4 pm</th>
+                                    <th>4 pm - 6 pm</th>
+                                    <th>6 pm - 8 pm</th>
+                                    <th>8 am - 10 pm</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr>
+                                    <td width="18%">
+                                        <span class="tableday">Fri</span>  <span class="daynum">1 st</span>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="greytd"></td>
+                                    <td class="greytd"></td>
+                                    <td></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <span class="tableday"> Sat</span>  <span class="daynum">2 nd</span>
+                                    </td>
+                                    <td></td>
+                                    <td class="greytd"></td>
+                                    <td></td>
+                                    <td class="greytd"></td>
+                                    <td></td>
+                                    <td class="greytd"></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                       <span class="tableday"> Sun </span> <span class="daynum">3 rd</span>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="greytd"></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                       <span class="tableday"> Mon </span> <span class="daynum">4 th</span>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+
+                                <tr>
+                                    <td class="dayactive">
+                                       <span class="tableday"> Tue </span> <span class="daynum">5 th</span>
+                                    </td>
+                                    <td class="activeright"></td>
+                                    <td class="activeright"></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="activeright"></td>
+                                    <td class="activeright"></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                       <span class="tableday"> Wed </span> <span class="daynum">6 th</span>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="activeright"></td>
+                                    <td class="activeright"></td>
+                                    <td class="activeright"></td>
+                                    <td class="activeright"></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                      <span class="tableday">  Thu </span> <span class="daynum">7 th</span>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="activeright"></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                      <span class="tableday">  Fri </span> <span class="daynum">8 th</span>
+                                    </td>
+                                    <td></td>
+                                    <td class="activeright"></td>
+                                    <td></td>
+                                    <td class="activeright"></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                      <span class="tableday">  Sat </span> <span class="daynum">9 th</span>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="activeright"></td>
+                                    <td class="activeright"></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                       <span class="tableday"> Sun </span> <span class="daynum">10 th</span>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="activeright"></td>
+                                    <td class="activeright"></td>
+                                    <td class="activeright"></td>
+                                    <td class="activeright"></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                       <span class="tableday"> Mon </span> <span class="daynum">11 th</span>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="activeright"></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                      <span class="tableday">  Tue </span>  <span class="daynum">12 th</span>
+                                    </td>
+                                    <td></td>
+                                    <td class="activeright"></td>
+                                    <td></td>
+                                    <td class="activeright"></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+
+
+                                <tr>
+                                    <td>
+                                       <span class="tableday"> Wed </span> <span class="daynum">13 th</span>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="activeright"></td>
+                                    <td class="activeright"></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                      <span class="tableday">  Thu </span> <span class="daynum">14 th</span>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="activeright"></td>
+                                    <td class="activeright"></td>
+                                    <td class="activeright"></td>
+                                    <td class="activeright"></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                       <span class="tableday"> Fri </span> <span class="daynum">15 th</span>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                       <span class="tableday"> Sat </span> <span class="daynum">16 th</span>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                       <span class="tableday"> Sun </span> <span class="daynum">17 th</span>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                      <span class="tableday">  Mon </span> <span class="daynum">18 th</span>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+
+
+                                <tr>
+                                    <td>
+                                       <span class="tableday"> Tue </span> <span class="daynum">19 th</span>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                       <span class="tableday"> Wed </span> <span class="daynum">20 th</span>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                       <span class="tableday"> Thu </span> <span class="daynum">21 st</span>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                      <span class="tableday">  Fri </span> <span class="daynum">22 nd</span>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                      <span class="tableday">  Sat </span> <span class="daynum">23 rd</span>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                      <span class="tableday">  Sun </span> <span class="daynum">24 th</span>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+
+
+                                <tr>
+                                    <td>
+                                      <span class="tableday">  Mon </span> <span class="daynum">25 th</span>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                      <span class="tableday">  Tue </span> <span class="daynum">26 th</span>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                      <span class="tableday">  Wed </span> <span class="daynum">27 th</span>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                       <span class="tableday"> Thu </span> <span class="daynum">28 th</span>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                       <span class="tableday"> Fri </span> <span class="daynum">29 th</span>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                      <span class="tableday">  Sat </span> <span class="daynum">30 th</span>
+                                    </td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+
+                   
+               </div>
+
+               
+            </div>
+
+           
+</section>
+
+
+<!-- JS, Popper.js, and jQuery -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $('.tabcontentwo').hide();
+        $('#payment').click(function(){
+            $('.tabcontentone').show();
+            $('.tabcontentwo').hide();
+            $(this).parent().addClass('paymentactivebtn').siblings().removeClass("paymentactivebtn");
+        });
+        $('#deposit').click(function(){
+            $('.tabcontentwo').show();
+            $('.tabcontentone').hide();
+            $(this).parent().addClass('paymentactivebtn').siblings().removeClass("paymentactivebtn");
+        })
+    })
+</script>
+
+</body>
+</html>
